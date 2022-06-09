@@ -1,62 +1,347 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arshpreet Singh</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet"> 
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Arshpreet Singh</title>
+  <meta name="description" content="Personal website of Arshpreet">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/favicon/site.webmanifest">
+
+  <link rel="stylesheet" href="/assets/css/main.min.css">
+  <link rel="stylesheet" href="/assets/css/vendors.min.css">
+
+  <script src="/assets/js/vendors.min.js"></script>
+  <script src="/assets/js/app.min.js"></script>
 </head>
+
 <body>
-    <div class = "top-container">
-        <img class="top-cloud" src="images/cloud.png" alt="cloud">
-        <h1>Arshpreet Singh</h1>
-        <h2 class = "subheading">A <span class="pro">pro</span>grammer.</h2>
-        <img class= "bottom-cloud" src="images/cloud.png" alt="cloud">
-        <img src="images/mountain.png" id="mountain" alt="mountain">
+  <div id="preloader">
+    <div class="load">
+      <hr />
+      <hr />
+      <hr />
+      <hr />
     </div>
-    <div class = "middle-container">
-        <div class="profile">
-            <img src="images/profile.png" alt="">
-            <h2>Hello</h2>
-            <p class="intro">I am a computer science student at Indian Institute of Technology. Currently pursuing my Btech degree</p>
-        </div>
-        <hr>
-        <div class="skills">
-            <h2>My Skills</h2>
-            
-            <div class="skills-row">
-                <img src="images/python.png" class="code-img" alt="">
-                <h3>Python Programming language</h3>
-                <p>I started using python language in 11th class for a subject of Computer Science and have been using it since.</p>
-            </div>
-            <div class="skills-row">
-                <img src="images/c-.png" class="mid-img" alt="">
-                <h3>C++ Programming Language</h3>
-                <p>I like to do competitive programming in this language</p>
-            </div>
-            <div class="skills-row">
-                <img src="images/programming.png" class="code-img" alt="">
-                <h3>Javascript</h3>
-                <p>I like building web and mobile applications using javascript</p>
-            </div>
-        </div>
-        <hr>
-        <div class="contact-me" >
-            <h2>Get in Touch</h2>
-            <h3></h3>
-            <p>Like to work together on a project? Let's get in touch</p>
-            <a class="btn" href="mailto:arshpreets2807@gmail.com">Contact me</a>
-        </div>
+  </div>
+  <div id="landing">
+  <div class="landing-title">
+    <h1>Hi, I&#39;m
+      <span class="highlight-title">Arshpreet</span>,
+    </h1>
+    <h1>
+      <span id="txt-rotate" data-period="2000"
+        data-rotate='["Fullstack Developer", "scroll down for more."]'
+      >
+      </span>
+    </h1>
+    <div class="landing-icons">
+      
+        <a class="social-link email" aria-label="My E-Mail" href="mailto:arshpreets2807@gmail.com">
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#envelope""></use>
+            </svg>
+          </div>
+          <span class="label">E-Mail</span>
+        </a>
+      
+
+      
+        <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
+          href="https://github.com/ArshpreetS"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
+            </svg>
+          </div>
+          <span class="label">GitHub</span>
+        </a>
+      
+
+      
+
+      
+
+      
+        <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank"
+          rel="noreferrer" href="https://www.linkedin.com/in/arshpreet-singh-4310b2204"
+        >
+          <svg viewBox="0 0 200 200" class="circle">
+            <circle cx="100" cy="100" r="80" />
+          </svg>
+          <div class="social">
+            <svg class="social-svg" viewBox="0 0 48 48">
+              <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#linkedin-in"></use>
+            </svg>
+          </div>
+          <span class="label">LinkedIn</span>
+        </a>
+      
+
+      
     </div>
-    <div class = "bottom-container">
-        <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
-        <a class="footer-link" href="https://www.github.com/">Github</a>
-        <p class="copyright">&copy; 2022 Arshpreet Singh</p>
+  </div>
+</div>
+
+  <div class="layout">
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">About Me</h1>
+<p class="description" data-aos="fade-down">I am an aspiring Computer Science Engineer who is exploring the whole new world called web development.</p>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">Skills</h1>
+
+<div id="skills">
+  <input type="radio" id="all" name="filter" checked />
+  <label class="filter-button neumorphism-button" for="all">All</label>
+  <input type="radio" id="language" name="filter" />
+  <label class="filter-button neumorphism-button" for="language">Languages</label>
+  <input type="radio" id="framework" name="filter" />
+  <label class="filter-button neumorphism-button" for="framework">Frameworks</label>
+  <input type="radio" id="tool" name="filter" />
+  <label class="filter-button neumorphism-button" for="tool">Tools</label>
+
+  
+    <div skill-type="language" skill-weight="5" data-aos="zoom-in">
+      Python
     </div>
+  
+    <div skill-type="language" skill-weight="4" data-aos="zoom-in">
+      JavaScript
+    </div>
+  
+    <div skill-type="language" skill-weight="4" data-aos="zoom-in">
+      C++
+    </div>
+  
+    <div skill-type="language" skill-weight="4" data-aos="zoom-in">
+      HTML5
+    </div>
+  
+    <div skill-type="language" skill-weight="4" data-aos="zoom-in">
+      CSS3
+    </div>
+  
+  
+    <div skill-type="framework" skill-weight="4" data-aos="zoom-in">
+      React
+    </div>
+  
+    <div skill-type="framework" skill-weight="3" data-aos="zoom-in">
+      Express
+    </div>
+  
+    <div skill-type="framework" skill-weight="2" data-aos="zoom-in">
+      Django
+    </div>
+  
+    <div skill-type="framework" skill-weight="4" data-aos="zoom-in">
+      Node
+    </div>
+  
+  
+    <div skill-type="tool" skill-weight="5" data-aos="zoom-in">
+      Git
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Bash
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Postman
+    </div>
+  
+    <div skill-type="tool" skill-weight="3" data-aos="zoom-in">
+      Vim
+    </div>
+  
+</div>
+
+      </section>
+    
+    
+      <section class="card neumorphism-card-big">
+        <h1 class="title">Education & Experience</h1>
+<p class="subtitle">
+  For more information, have a look at my
+  <a class="highlight-link" href="https://drive.google.com/file/d/14uqsTb1RVRL9CsyBLfZihveCL1BlCFad/view?usp=sharing" target="_blank" rel="noreferrer">
+    CV
+  </a>.
+</p>
+
+<div class="timeline-wrapper">
+  <ul class="timeline">
+    
+      
+        <li>
+          <div class="direction-l">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-right">
+                <a href="https://www.iitbhilai.ac.in/" target="_blank" rel="noreferrer">
+                  <span>Indian Institute of technology Bhilai</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-right">
+                <span class="time neumorphism-card">2020 - 2024</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-right">
+              B.Tech Computer Science - CGPA => 9.5
+              
+            </div>
+          </div>
+        </li>
+      
+
+      
+    
+      
+
+      
+        <li>
+          <div class="direction-r">
+            <div class="flag-wrapper">
+              <span class="hexagon"></span>
+              <span class="flag neumorphism-button" data-aos="zoom-in-left">
+                <a href="http://www.miramodelschooldelhi.edu.in/" target="_blank" rel="noreferrer">
+                  <span>Mira Model School</span>
+                </a>
+              </span>
+              <span class="time-wrapper" data-aos="zoom-in-left">
+                <span class="time neumorphism-card">2018 - 2020</span>
+              </span>
+            </div>
+            <div class="desc neumorphism-card" data-aos="zoom-in-left">
+              Secondary Education - 94.6%
+              
+            </div>
+          </div>
+        </li>
+      
+    
+  </ul>
+</div>
+
+      </section>
+    
+    
+    
+    <section class="card neumorphism-card-big">
+      <h1 class="title">Contact</h1>
+<p class="subtitle">Feel free to contact me</p>
+
+<div class="contact-icons">
+  
+  <a class="social-link" aria-label="My E-Mail" href="mailto:arshpreets2807@gmail.com">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/solid.svg#envelope"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+  <a class="social-link" aria-label="My GitHub" target="_blank" rel="noreferrer"
+    href="https://github.com/ArshpreetS">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#github"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+
+  
+
+  
+  <a class="social-link linkedin" aria-label="My LinkedIn" target="_blank" rel="noreferrer"
+    href="https://www.linkedin.com/in/arshpreet-singh-4310b2204">
+    <div class="social">
+      <svg class="social-svg" viewBox="0 0 48 48">
+        <use x="12" y="12" width="24" height="24" viewBox="0 0 48 48" xlink:href="/assets/img/brands.svg#linkedin-in"></use>
+      </svg>
+    </div>
+  </a>
+  
+
+  
+</div>
+
+    </section>
+    
+  </div>
+  <footer class="footer">
+  <p>
+    &copy; 2020 Designed & Developed by Arshpreet Singh using 
+    <a class="highlight-link" href="https://jekyllrb.com/" target="_blank" rel="noreferrer">
+      jekyll
+    </a>
+    
+  </p>
+  <!-- <p>
+    Built with
+    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+      Jekyll
+    </a>
+    and powered by
+    <a class="highlight-link" href="https://pages.github.com/" target="_blank" rel="noreferrer">
+      Github Pages
+    </a>
+  </p> -->
+</footer>
+
+<!-- Google Analytics -->
+
+<script>
+  var dnt = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+  if (dnt != "1" && dnt != "yes") {
+    (function (i, s, o, g, r, a, m) {
+      i["GoogleAnalyticsObject"] = r;
+      (i[r] =
+        i[r] ||
+        function () {
+          (i[r].q = i[r].q || []).push(arguments);
+        }),
+        (i[r].l = 1 * new Date());
+      (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m);
+    })(
+      window,
+      document,
+      "script",
+      "https://www.google-analytics.com/analytics.js",
+      "ga"
+    );
+    ga("create", "", "auto");
+    ga("send", "pageview");
+  }
+</script>
+
+
 </body>
 </html>
