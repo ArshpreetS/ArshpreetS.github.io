@@ -12,14 +12,14 @@ title: Arshpreet
 email: 
 description: a minimalistic jekyll theme for academics
 baseurl:                                       # the subpath of your site, e.g. /blog
-url: "https://dumbarton.netlify.app/"          # the base hostname & protocol for your site, e.g. http://example.com
+url: arshpreets.in/    # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/Arshpreet.jpeg               # used to generate site link preview
 image_alt: A minimalistic jekyll theme for academic    # image description
 
 # =======================================#
 # -----------SITE SETTINGS---------------#
 #========================================#: 
-author: John Doe 
+author: Arshpreet Singh
 profile_image: /assets/img/avatar/Arshpreet.jpeg #/assets/img/avatar/avatar.jpeg 
 occupation: 
 snippet:
@@ -115,19 +115,19 @@ exclude:
 # =======================================#
 # -----JEKYLL SCHOLAR SETTINGS-----------#
 #========================================#
-scholar:
-  last_name: Dumbarton
-  style: apa
-  locale: en
-  source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
-  replace_strings: true
-  join_strings: true
-  details_dir: bibliography
-  details_layout: bibtex.html
-  details_link: 
-  query: "@*"
+# scholar:
+#   last_name: Dumbarton
+#   style: apa
+#   locale: en
+#   source: /_bibliography/
+#   bibliography: papers.bib
+#   bibliography_template: bib
+#   replace_strings: true
+#   join_strings: true
+#   details_dir: bibliography
+#   details_layout: bibtex.html
+#   details_link: 
+#   query: "@*"
 
 # =======================================#
 # ------------CDN SETTINGS---------------#
