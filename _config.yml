@@ -12,9 +12,9 @@ title: Arshpreet
 email: 
 description: a minimalistic jekyll theme for academics
 baseurl:                                       # the subpath of your site, e.g. /blog
-url: arshpreets.in/    # the base hostname & protocol for your site, e.g. http://example.com
+url:  # the base hostname & protocol for your site, e.g. http://example.com
 image: /assets/img/Arshpreet.jpeg               # used to generate site link preview
-image_alt: A minimalistic jekyll theme for academic    # image description
+image_alt: Image of Arshpreet    # image description
 
 # =======================================#
 # -----------SITE SETTINGS---------------#

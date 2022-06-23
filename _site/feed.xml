@@ -1,1 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="arshpreets.in//feed.xml" rel="self" type="application/atom+xml" /><link href="arshpreets.in//" rel="alternate" type="text/html" /><updated>2022-06-21T18:21:36+05:30</updated><id>arshpreets.in//feed.xml</id><title type="html">Arshpreet</title><subtitle>a minimalistic jekyll theme for academics</subtitle><author><name>Arshpreet Singh</name></author><entry><title type="html">CI/CD Workflow</title><link href="arshpreets.in//post/ipsum/2020/10/27/Lorem-Ipsum2.html" rel="alternate" type="text/html" title="CI/CD Workflow" /><published>2020-10-27T05:31:21+05:30</published><updated>2020-10-27T05:31:21+05:30</updated><id>arshpreets.in//post/ipsum/2020/10/27/Lorem-Ipsum2</id><content type="html" xml:base="arshpreets.in//post/ipsum/2020/10/27/Lorem-Ipsum2.html"><![CDATA[<p>Coming Soon!</p>]]></content><author><name>Tyler Butler</name></author><category term="post" /><category term="ipsum" /><category term="jekyll" /><summary type="html"><![CDATA[A little introduction to DevOps and Github Actions]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://placehold.it/750X300?text=Header+Image" /><media:content medium="image" url="http://placehold.it/750X300?text=Header+Image" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Project 1</title><link href="arshpreets.in//project/2020/08/11/Project-1.html" rel="alternate" type="text/html" title="Project 1" /><published>2020-08-11T05:31:21+05:30</published><updated>2020-08-11T05:31:21+05:30</updated><id>arshpreets.in//project/2020/08/11/Project-1</id><content type="html" xml:base="arshpreets.in//project/2020/08/11/Project-1.html"><![CDATA[]]></content><author><name>Arshpreet Singh</name></author><category term="project" /><summary type="html"><![CDATA[]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="arshpreets.in//assets/img/posts/blog2.jpg" /><media:content medium="image" url="arshpreets.in//assets/img/posts/blog2.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-06-23T18:14:21+05:30</updated><id>http://localhost:4000/feed.xml</id><title type="html">Arshpreet</title><subtitle>a minimalistic jekyll theme for academics</subtitle><author><name>Arshpreet Singh</name></author><entry><title type="html">Day 1 at C4GT</title><link href="http://localhost:4000/latin/text/2020/10/27/Day-1.html" rel="alternate" type="text/html" title="Day 1 at C4GT" /><published>2020-10-27T05:31:21+05:30</published><updated>2020-10-27T05:31:21+05:30</updated><id>http://localhost:4000/latin/text/2020/10/27/Day-1</id><content type="html" xml:base="http://localhost:4000/latin/text/2020/10/27/Day-1.html"><![CDATA[]]></content><author><name>Arshpreet Singh</name></author><category term="latin" /><category term="text" /><summary type="html"><![CDATA[Starting a new journey]]></summary></entry><entry><title type="html">React: useRef() Hook</title><link href="http://localhost:4000/latin/text/2020/10/27/CD-Workflow.html" rel="alternate" type="text/html" title="React: useRef() Hook" /><published>2020-10-27T05:31:21+05:30</published><updated>2020-10-27T05:31:21+05:30</updated><id>http://localhost:4000/latin/text/2020/10/27/CD-Workflow</id><content type="html" xml:base="http://localhost:4000/latin/text/2020/10/27/CD-Workflow.html"><![CDATA[<p>So I recently found out the use of the <code class="language-plaintext highlighter-rouge">useRef() Hook</code></p>
+
+<p>Basically it returns a single object with only one property called <em>current</em></p>
+
+<pre><code class="language-Javascript">const countRender = useRef(0);
+// countRender = { current: 0 }
+</code></pre>
+
+<h2 id="usecase">UseCase</h2>
+
+<p>Every element in JSX has an attribute called <strong>ref</strong> through which we can pass our ‘Refs’.</p>
+
+<pre><code class="language-Javascript">const messageWindow = useRef(null);
+
+// Some code in middle
+
+&lt;div ref={messageWindow} ...&gt;
+// More code
+</code></pre>
+
+<p>Using the above syntax we can play with the <code class="language-plaintext highlighter-rouge">div</code> element itself as we will get the <em>element object</em> as the current value in our ref object.</p>
+
+<pre><code class="language-Javascript">
+useEffect(() =&gt; {
+    messageWindow.current.scrollTop = 500px;
+    // scrolls the div container by 500px
+})
+</code></pre>
+
+<p>See you soon with more such learnings.</p>
+
+<p>Peace!</p>]]></content><author><name>Arshpreet Singh</name></author><category term="latin" /><category term="text" /><summary type="html"><![CDATA[A little introduction to DevOps and Github Actions]]></summary></entry><entry><title type="html">Typescript: Compiler Configuration</title><link href="http://localhost:4000/latin/text/2020/10/27/Typescript.html" rel="alternate" type="text/html" title="Typescript: Compiler Configuration" /><published>2020-10-27T05:31:21+05:30</published><updated>2020-10-27T05:31:21+05:30</updated><id>http://localhost:4000/latin/text/2020/10/27/Typescript</id><content type="html" xml:base="http://localhost:4000/latin/text/2020/10/27/Typescript.html"><![CDATA[]]></content><author><name>Arshpreet Singh</name></author><category term="latin" /><category term="text" /><summary type="html"><![CDATA[A little introduction to DevOps and Github Actions]]></summary></entry></feed>

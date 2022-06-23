@@ -1,0 +1,9 @@
+I"H<p>So I recently found out the use of the <code class="language-plaintext highlighter-rouge">useRef() Hook</code></p>
+
+<p>Basically it returns a single object with only one property called <em>current</em></p>
+
+<pre><code class="language-Javascript">const countRender = useRef(0);
+// countRender = { current: 0 }
+</code></pre>
+
+:ET

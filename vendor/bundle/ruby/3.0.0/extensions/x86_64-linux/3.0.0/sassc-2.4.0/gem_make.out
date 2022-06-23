@@ -1,13 +1,13 @@
-current directory: /home/chiefash/Documents/Jekyll-Theme-Dumbarton-dev/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
-/usr/bin/ruby -I /usr/share/rubygems -r ./siteconf20220621-195912-dg1f5x.rb extconf.rb
+current directory: /home/chiefash/Documents/git_repos/ArshpreetS.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
+/usr/bin/ruby -I /usr/share/rubygems -r ./siteconf20220622-268138-111nvk.rb extconf.rb
 creating Makefile
 
-current directory: /home/chiefash/Documents/Jekyll-Theme-Dumbarton-dev/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
+current directory: /home/chiefash/Documents/git_repos/ArshpreetS.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
 make DESTDIR\= clean
 rm -f 
 rm -f libsass.so  *.o  *.bak mkmf.log .*.time
 
-current directory: /home/chiefash/Documents/Jekyll-Theme-Dumbarton-dev/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
+current directory: /home/chiefash/Documents/git_repos/ArshpreetS.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
 make DESTDIR\=
 g++ -I. -I/usr/include -I/usr/include/ruby/backward -I/usr/include -I. -I./libsass/include   -fPIC -O2  -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -std=c++11 -DLIBSASS_VERSION='"3.6.4"' -m64 -o ast.o -c ./libsass/src/ast.cpp
 g++ -I. -I/usr/include -I/usr/include/ruby/backward -I/usr/include -I. -I./libsass/include   -fPIC -O2  -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1  -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -std=c++11 -DLIBSASS_VERSION='"3.6.4"' -m64 -o ast2c.o -c ./libsass/src/ast2c.cpp
@@ -94,8 +94,8 @@ rm -f libsass.so
 g++ -shared -o libsass.so ast.o ast2c.o ast_fwd_decl.o ast_sel_cmp.o ast_sel_super.o ast_sel_unify.o ast_sel_weave.o ast_selectors.o ast_supports.o ast_values.o backtrace.o base64vlq.o bind.o c2ast.o c99func.o cencode.o check_nesting.o color_maps.o constants.o context.o cssize.o emitter.o environment.o error_handling.o eval.o eval_selectors.o expand.o extender.o extension.o file.o fn_colors.o fn_lists.o fn_maps.o fn_miscs.o fn_numbers.o fn_selectors.o fn_strings.o fn_utils.o inspect.o json.o lexer.o listize.o allocator.o shared_ptr.o operators.o output.o parser.o parser_selectors.o plugins.o position.o prelexer.o remove_placeholders.o sass.o sass2scss.o sass_context.o sass_functions.o sass_values.o source.o source_map.o stylesheet.o to_value.o units.o utf8_string.o util.o util_string.o values.o -L. -L/usr/lib64 -L. -Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed -Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1   -m64  -lm   -lc
 strip -x libsass.so
 
-current directory: /home/chiefash/Documents/Jekyll-Theme-Dumbarton-dev/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
+current directory: /home/chiefash/Documents/git_repos/ArshpreetS.github.io/vendor/bundle/ruby/3.0.0/gems/sassc-2.4.0/ext
 make DESTDIR\= install
-/usr/bin/mkdir -p . ./.gem.20220621-195912-h8aoip/sassc
+/usr/bin/mkdir -p . ./.gem.20220622-268138-jhh5oh/sassc
 exit > .sitearchdir.-.sassc.time
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20220621-195912-h8aoip/sassc
+/usr/bin/install -c -m 0755 libsass.so ./.gem.20220622-268138-jhh5oh/sassc
