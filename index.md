@@ -4,6 +4,7 @@ title:
 date: 2020-11-20 
 ---
 ### Hi, I'm Arshpreet 👋
-I am currently pursuing my B.Tech CSE degree at IIT Bhilai. I am exploring the world of web development. I recently got selected at C4GT as a contributor. I am looking forward to this opportunity and would be creating blogs to encase my learnings
+I am 3rd year B.Tech CSE student at IIT Bhilai. I am a very passionate about computer science. I am seeking an software engineer intern position to expand my knowledge about computers and apply my problem-solving and troubleshooting skills.
+Peace 
 
 <a href="/contact.html" class="highlighted">Contact Me</a>

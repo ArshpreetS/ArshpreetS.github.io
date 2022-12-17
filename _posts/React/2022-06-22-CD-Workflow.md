@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "React: useRef() Hook"
-description: "A little introduction to DevOps and Github Actions"
+description: "Self Notes"
 date:   2020-10-26 20:01:21 -0400
 type: card-img-top
 categories: latin text
